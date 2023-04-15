@@ -9,8 +9,4 @@ git reset -- .moonraker.conf.bkp
 git commit -m "Update $(date +"%Y%m%d-%H%M%S")"
 git push --set-upstream origin patch-from-printer
 git checkout master
-<<<<<<< HEAD
 git branch -d patch-from-printer
-=======
-git branch -d patch-printer
->>>>>>> e7cce7ffb5779e1fed7bb7ba0185df0a19f759c5
