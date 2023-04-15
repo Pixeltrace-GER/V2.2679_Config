@@ -8,4 +8,4 @@ git add .
 git commit -m "Update $(date +"%Y%m%d-%H%M%S")"
 git push --set-upstream origin patch-from-printer
 git checkout master
-git checkout -d patch-printer
+git branch -d patch-printer
