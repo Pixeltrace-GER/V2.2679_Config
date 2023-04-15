@@ -5,7 +5,7 @@ function check_online
 }
 
 # Initial check to see if we are online
-IS_ONLINE=check_online
+IS_ONLINE=$(check_online)
 # How many times we should check if we're online - this prevents infinite looping
 MAX_CHECKS=5
 # Initial starting value for checks
