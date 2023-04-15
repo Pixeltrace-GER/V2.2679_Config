@@ -30,3 +30,4 @@ if [ $IS_ONLINE -eq 0 ]; then
 fi
 
 /home/pi/klipper_config/script/gitpush.sh
+
