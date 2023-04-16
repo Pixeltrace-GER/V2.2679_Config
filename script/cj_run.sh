@@ -20,6 +20,7 @@ while [ $IS_ONLINE -eq 0 ]; do
 
     CHECKS=$[ $CHECKS + 1 ]
     if [ $CHECKS -gt $MAX_CHECKS ]; then
+		sleep 300;
         break
     fi
 done
