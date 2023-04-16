@@ -29,5 +29,5 @@ if [ $IS_ONLINE -eq 0 ]; then
     exit 1
 fi
 
-/home/pi/klipper_config/script/gitpush.sh
+/home/pi/klipper_config/script/gitpush.sh &> /home/pi/klipper_config/script/gitpush.log
 
