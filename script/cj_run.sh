@@ -1,7 +1,7 @@
 #!/bin/bash
 function check_online
 {
-    netcat -z -w 5 8.8.8.8 53 && echo 1 || echo 0
+	netcat -z -w 5 github.com 22 && echo 1 || echo 0
 }
 
 # Initial check to see if we are online
