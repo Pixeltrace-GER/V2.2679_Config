@@ -1,11 +1,9 @@
 *.log
 .fluidd.json
 .mainsail.json
-.variables.stb
 printer-*.cfg
 *.png
 *.csv
 *.jpg
-/logs
 *.txt
 .moonraker.conf.bkp
