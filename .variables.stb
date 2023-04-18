@@ -1,5 +1,0 @@
-[Variables]
-filament_loaded = True
-plates = {'array': [{'name': 'Black_1', 'offset': 0.05}, {'name': 'Black_2', 'offset': -0.05}], 'index': 0}
-print_stats = {'filament': 4998357.527773439, 'time': {'filter': 3495315, 'total': 3495315, 'service': 3495315}}
-
