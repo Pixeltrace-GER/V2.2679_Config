@@ -1,0 +1,10 @@
+*.log
+.fluidd.json
+.mainsail.json
+printer-*.cfg
+.variables.stb
+*.png
+*.csv
+*.jpg
+*.txt
+.moonraker.conf.bkp
