@@ -1,5 +1,4 @@
 *.log
-.fluidd.json
 .mainsail.json
 printer-*.cfg
 .variables.stb
@@ -8,3 +7,4 @@ printer-*.cfg
 *.jpg
 *.txt
 .moonraker.conf.bkp
+input_shaper/**/
